@@ -12,7 +12,7 @@ package cryptography.asymmetric;
  *  private = 553699199426609
  *  modulus = 825641896390631
  *  message   = 48194775244950
- *  encrpyted = 321340212160104
+ *  encrypted = 321340212160104
  *  decrypted = 48194775244950
  *
  *  Known bugs (not addressed for simplicity)
