@@ -21,7 +21,6 @@ public class Startup {
         BigInteger decrypt = key.decrypt(encrypt);
         System.out.println("message   = " + message);
         System.out.println("encrypted = " + encrypt);
-        System.out.println("decrypted = " + decrypt);
-        System.out.println(new String(decrypt.toByteArray()));
+        System.out.println(String.format("decrypted = %s (clear text: %s)", decrypt, new String(decrypt.toByteArray())));
     }
 }
