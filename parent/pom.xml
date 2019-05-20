@@ -24,6 +24,8 @@
     </description>
 
     <modules>
-        <module>../00-rsa-algorithm-in-cryptography</module>
+        <!-- introduction to rsa -->
+        <!--<module>../00-rsa-algorithm-in-cryptography</module>-->
+        <module>../01-generate-rsa-keys</module>
     </modules>
 </project>
